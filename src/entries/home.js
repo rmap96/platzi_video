@@ -6,7 +6,7 @@ import data from '../api.json';
 
 // console.log('Hola mundo!')
 
-const app = document.getElementById('app')
+const homeContainer = document.getElementById('home-container')
 
 // const holaMundo = <h1>hola mundo e</h1>;
-render(<Home data={data} />, app);
+render(<Home data={data} />, homeContainer);
